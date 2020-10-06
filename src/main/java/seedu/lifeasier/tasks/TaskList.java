@@ -22,7 +22,7 @@ public class TaskList {
     public static void addNewTask(Task task) {
         taskList.add(task);
     }
-
+/*
     //addEvent EVENT_NAME /date DATE /time START /to END
     public static void addEvent (String args) {
         try {
@@ -73,4 +73,6 @@ public class TaskList {
             System.err.println(e);
         }
     }
+
+ */
 }

@@ -37,11 +37,9 @@ public class LifEasier {
         while (!isFinished) {
             String fullCommand = ui.readCommand();
             try {
-
                 Command userCommand = parser.parseCommand(fullCommand);
                 userCommand.execute(ui, notes, tasks);
                 isFinished = userCommand.isFinished();
-
             } catch (ParserException e) {
                 System.out.println("There's been an error understanding your input! Please double check your input!");
             }
