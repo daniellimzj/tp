@@ -26,4 +26,8 @@ public abstract class Command {
     public boolean isFinished() {
         return isTerminated;
     }
+
+    public String testOutput() {
+        return "placeholder";
+    }
 }

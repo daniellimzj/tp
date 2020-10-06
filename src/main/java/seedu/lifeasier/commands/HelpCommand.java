@@ -10,4 +10,9 @@ public class HelpCommand extends Command {
     public void execute(Ui ui, NoteList notes, TaskList tasks) {
 
     }
+
+    @Override
+    public String testOutput() {
+        return "helpcommand";
+    }
 }
