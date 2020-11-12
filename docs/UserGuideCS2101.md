@@ -906,7 +906,7 @@ Here are some examples of what might happen if you start up **LifEasier** on 24t
 
 ## 5.0 FAQ
 
-**The following FAQ section answers some common questions that you may have about the LifEasier application.**
+The following FAQ section answers some common questions that you may have about the LifEasier application.
 
 **Q1: Can I use my LifEasier saves on another computer?**
 
